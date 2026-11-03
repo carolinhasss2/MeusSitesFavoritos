@@ -1,0 +1,143 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Define os caracteres utilizados na página -->
+    <meta charset="UTF-8">
+
+    <!-- Define o título que aparece na aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <!-- Permite adaptar a página a diferentes telas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilização da página utilizando CSS -->
+    <style>
+
+        /* Configurações gerais do corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f1f7;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilo do título principal */
+        h1 {
+            color: #563d68;
+            margin-bottom: 30px;
+        }
+
+        /* Organiza os cartões dos sites */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        /* Aparência dos cartões individuais */
+        .site {
+            background-color: white;
+            width: 220px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo dos nomes dos sites */
+        .site h2 {
+            color: #563d68;
+            font-size: 20px;
+        }
+
+        /* Configuração das imagens */
+        .site img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+        }
+
+        /* Estilo dos links */
+        .site a {
+            display: block;
+            margin-top: 15px;
+            color: #8a4fa3;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Efeito quando o mouse passa sobre os links */
+        .site a:hover {
+            color: #c05ca8;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Título que aparece no corpo da página -->
+    <h1>Meus sites favoritos: Seu Nome</h1>
+
+    <!-- Área que contém os cinco sites favoritos -->
+    <div class="container">
+
+        <!-- Primeiro site: Pinterest -->
+        <div class="site">
+            <h2>Pinterest</h2>
+            <img src="https://www.google.com/s2/favicons?domain=pinterest.com&sz=256"
+                 alt="Logo do Pinterest">
+            <a href="https://www.pinterest.com" target="_blank">
+                Acessar Pinterest
+            </a>
+        </div>
+
+        <!-- Segundo site: YouTube -->
+        <div class="site">
+            <h2>YouTube</h2>
+            <img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=256"
+                 alt="Logo do YouTube">
+            <a href="https://www.youtube.com" target="_blank">
+                Acessar YouTube
+            </a>
+        </div>
+
+        <!-- Terceiro site: Instagram -->
+        <div class="site">
+            <h2>Instagram</h2>
+            <img src="https://www.google.com/s2/favicons?domain=instagram.com&sz=256"
+                 alt="Logo do Instagram">
+            <a href="https://www.instagram.com" target="_blank">
+                Acessar Instagram
+            </a>
+        </div>
+
+        <!-- Quarto site: TikTok -->
+        <div class="site">
+            <h2>TikTok</h2>
+            <img src="https://www.google.com/s2/favicons?domain=tiktok.com&sz=256"
+                 alt="Logo do TikTok">
+            <a href="https://www.tiktok.com" target="_blank">
+                Acessar TikTok
+            </a>
+        </div>
+
+        <!-- Quinto site: GitHub -->
+        <div class="site">
+            <h2>GitHub</h2>
+            <img src="https://www.google.com/s2/favicons?domain=github.com&sz=256"
+                 alt="Logo do GitHub">
+            <a href="https://github.com" target="_blank">
+                Acessar GitHub
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
+```
